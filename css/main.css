@@ -831,5 +831,26 @@ Recipe Template
 }
 
 
+/* <------appitize---> */
+.custom-left-bottom-align {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translateX(0);
+}
+
+.custom-caption-box {
+  background-color:rgb(0,0,0,.6);
+  padding: 10px;
+  opacity: 0.8; /* Adjust the opacity as desired for transparency */
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+  padding-left: 4px;
+  transform: translateX(150px);
+  margin-bottom: 20px;
+}
+
+
 
 
