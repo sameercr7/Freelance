@@ -17,12 +17,7 @@
       flex-wrap: wrap;
     
     }
-    .menu-group-heading {
-  margin: 0;
-  padding-bottom: 1em;
-  border-bottom: 2px solid #ccc;
-}
-
+    
     .hello {
   text-align: left; /* To shift the heading to the left, use "left" here */
   margin-left: 50px; /* Adjust the left margin as needed */
@@ -33,10 +28,9 @@
             /* text-align: center; /* Center the content inside the div */
   
     display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: 1fr;
   gap: 1.5em;
-  padding: .5em 143px;
-  font-size: 26px;
+  padding: 1.5em 0;
 }
 
     table {
@@ -47,35 +41,32 @@
 
     th,
     td {
-      padding: 13px;
+      padding: 10px;
       border: 1px solid #000000;
       text-align: left;
       word-wrap: break-word;
       color: white;
-      font-size: 19px;
     }
 
     th {
       background-color: #000000;
       color: rgb(172, 229, 3);
-      font-size: 21px;
+      font-size: 19px;
     }
-    @media only screen and (max-width: 768px) {
-            .hello {
-                margin-left: 0;
-            }
+    @media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
 
-            .menu-group {
-                padding: 0.5em 10px;
-                font-size: 20px;
-            }
+  .menu-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-            th,
-            td {
-                padding: 10px;
-                font-size: 17px;
-            }
-        }
+  .menu-item-img {
+    width: 125px;
+    height: 125px;
+  }
+}
   </style>
 </head>
 
@@ -86,8 +77,7 @@
   
   <table>
     <thead>
-      <tr class="menu-item-name">
-        
+      <tr>
         <th>Beverages</th>
         <th>Country</th>
         <th>Grape</th>
@@ -115,7 +105,7 @@
         <td>Italy</td>
         <td>Glera</td>
         <td>INR1600</td>
-        <td></td>
+        <td>INR1600</td>
       </tr>
       <tr>
         <td>Fratelli Noi Brut</td>
@@ -392,7 +382,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>The Source</td>
+          <td>the Source</td>
           <td>India</td>
           <td>Grenache Rosé</td>
           <td>INR2500</td>
@@ -445,35 +435,35 @@
           <td>India</td>
           <td>Viognier</td>
           <td>INR2500</td>
-          <td>INR1.50</td>
+          <td></td>
         </tr>
         <tr>
           <td>Reveilo</td>
           <td>India</td>
           <td>Chardonnay</td>
           <td>INR2400</td>
-          <td>INR2.00</td>
+          <td></td>
         </tr>
         <tr>
           <td>Donafugata Sicilia</td>
           <td>Italy</td>
           <td>Ansonica,Viogner,Chardonnay</td>
           <td>INR6000</td>
-          <td>INR1.25</td>
+          <td></td>
         </tr> 
         <tr>
             <td>Sula, Chenin Blanc</td>
             <td>India</td>
             <td>Chenin Blanc</td>
             <td>INR2500</td>
-            <td>INR1.25</td>
+            <td></td>
           </tr>
           <tr>
             <td>The Source</td>
             <td>India</td>
             <td>Chenin Blanc</td>
             <td>INR2500</td>
-            <td>INR1.25</td>
+            <td></td>
           </tr>
         <!-- Add more rows as needed -->
       </tbody>

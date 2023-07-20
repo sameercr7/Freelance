@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            background-color: rgb(10, 1, 1);
+            padding: 10px;
+        }
+
+        .menu-group-heading {
+            margin: 0;
+            padding-bottom: 1em;
+            border-bottom: 2px solid #ccc;
+            font-size: 26px;
+            color: rgb(172, 229, 3);
+        }
+
+        .hello {
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        .menu-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th,
+        td {
+            padding: 13px;
+            border: 1px solid #000000;
+            text-align: left;
+            color: white;
+            font-size: 19px;
+        }
+
+        th {
+            background-color: #000000;
+            color: rgb(172, 229, 3);
+            font-size: 21px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .menu-group {
+                grid-template-columns: repeat(1, 1fr);
+                font-size: 18px;
+            }
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 995px) {
+            .menu-group {
+                grid-template-columns: repeat(2, 1fr);
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (min-width: 996px) and (max-width: 1253px) {
+            .menu-group {
+                grid-template-columns: repeat(3, 1fr);
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (min-width: 1254px) {
+            .menu-group {
+                grid-template-columns: repeat(5, 1fr);
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-group">
+        <div class="hello">
+            <h2 class="menu-group-heading">BUBBLIES</h2>
+
+            <table>
+                <thead>
+                    <tr class="menu-item-name">
+                        <th>Beverages</th>
+                        <th>Country</th>
+                        <th>Grape</th>
+                        <th>Bottle Price</th>
+                        <th>Price by Glass</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dom Perignon</td>
+                        <td>France</td>
+                        <td>Pinot Noir & Chardonnay</td>
+                        <td>INR 4900</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Moët & Chandon, Impérial</td>
+                        <td>France</td>
+                        <td>Pinot Noir, Pinot Meunier and Chardonnay</td>
+                        <td>INR 1600</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Zonin Cuvee(prosecco)</td>
+                        <td>Italy</td>
+                        <td>Glera</td>
+                        <td>INR 1600</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Fratelli Noi Brut</td>
+                        <td>India</td>
+                        <td>Chennai Blanc</td>
+                        <td>INR 3500</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sula Brut Tropicale</td>
+                        <td>India</td>
+                        <td>Pinot Noir</td>
+                        <td>INR 3000</td>
+                        <td>INR 650</td>
+                    </tr>
+                    <tr>
+                        <td>Sula, Sparkling</td>
+                        <td>India</td>
+                        <td>Shiraz</td>
+                        <td>INR 3200</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Fratelli Grant Cuivee</td>
+                        <td>India</td>
+                        <td>Chenin Blanc</td>
+                        <td>INR 3400</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Chandon Brut</td>
+                        <td>India</td>
+                        <td>Chardonnay, Pinot Noir and Pinot Meunier</td>
+                        <td>INR 5500</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
