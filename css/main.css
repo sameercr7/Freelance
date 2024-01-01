@@ -846,11 +846,11 @@ Recipe Template
   opacity: 0.78; /* Adjust the opacity as desired for transparency */
   color: white;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 5px;
   padding-left: 4px;
   transform: translateX(150px);
   margin-bottom: 20px;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .6), transparent);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .7), transparent);
 }
 .fixed-height-img {
   max-height: 1200px; /* Adjust the height as needed */
@@ -863,7 +863,7 @@ Recipe Template
     overflow: hidden;
    
 }
-.d{
+/* .d{
   
   border: .1rem solid white;
   /* text-align: center; */
@@ -876,7 +876,7 @@ Recipe Template
 .dg{
   display: flex;
 
-}
+} */
 
 
 
