@@ -867,12 +867,12 @@ Recipe Template
   
   border: .1rem solid white;
   /* text-align: center; */
-  width: 1.5%;
+  /* width: 1.5%;
   border-radius: 50%;
   text-align: center;
   font-weight: bold;
   margin: 0 2px;
-}
+} */
 .dg{
   display: flex;
 

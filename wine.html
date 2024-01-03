@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
-  <style>
-    body {
-    
-      
-      background-color: rgb(10, 1, 1);
-      padding-block: 10px;
-      flex-wrap: wrap;
-    
-    }
-    
-    .hello {
-  text-align: left; /* To shift the heading to the left, use "left" here */
-  margin-left: 50px; /* Adjust the left margin as needed */
-}
-.menu-group-heading {
-  margin: 0;
-  padding-bottom: 1em;
-  border-bottom: 2px solid #ccc;
-}
-.menu-group{
-    /* display: flex;
+    <style>
+      body {
+        background-color: rgb(10, 1, 1);
+        padding-block: 10px;
+        flex-wrap: wrap;
+      }
+
+      .hello {
+        text-align: left; /* To shift the heading to the left, use "left" here */
+        margin-left: 50px; /* Adjust the left margin as needed */
+      }
+      .menu-group-heading {
+        margin: 0;
+        padding-bottom: 1em;
+        border-bottom: 2px solid #ccc;
+      }
+      .menu-group {
+        /* display: flex;
             justify-content: center; */
-            /* text-align: center; /* Center the content inside the div */
-  
-            display: grid;
-  grid-template-columns: repeat(5, auto);
-  gap: 1.5em;
-  padding: 1.5em 0;
-}
+        /* text-align: center; /* Center the content inside the div */
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      table-layout: fixed;
-    }
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        gap: 1.5em;
+        padding: 1.5em 0;
+      }
 
-    th,
-    td {
-      padding: 10px;
-      border: 1px solid #000000;
-      text-align: left;
-      word-wrap: break-word;
-      color: white;
-    }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
 
-    th {
-      background-color: #000000;
-      color: rgb(172, 229, 3);
-      font-size: 19px;
-    }
-    @media screen and (min-width: 680px)  and (max-width: 726px){
-  .menu {
-    font-size: 16px;
-  }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #000000;
+        text-align: left;
+        word-wrap: break-word;
+        color: white;
+      }
 
-  .menu-group {
-    grid-template-columns: repeat(5, auto);
-  }
+      th {
+        background-color: #000000;
+        color: rgb(172, 229, 3);
+        font-size: 19px;
+      }
+      @media screen and (min-width: 680px) and (max-width: 726px) {
+        .menu {
+          font-size: 16px;
+        }
 
-  
-}
-.sticky-line {
+        .menu-group {
+          grid-template-columns: repeat(5, auto);
+        }
+      }
+      .sticky-line {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: rgb(10, 1, 1,.5);
+        background-color: rgb(10, 1, 1, 0.5);
         color: white;
         padding: 8px 16px;
         width: 100%;
@@ -81,753 +81,761 @@
         border-bottom: 1px solid rgb(172, 229, 3);
         font-size: 14px;
         text-align: center;
-    }
+      }
+      .winess {
+        color: white;
+      }
+    </style>
+  </head>
 
-  </style>
-</head>
-
-<body>
-  <div class="sticky-line">
-    Mixers extra | GST : 18% | VAT : 20% | Service Charge : 5%
-</div>
+  <body>
+    <div class="sticky-line">
+      Mixers extra | GST : 18% | VAT : 20% | Service Charge : 5%
+    </div>
+    <h5 class="winess">Wine By Glass</h5>
     <div class="menu-group">
-        <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">BUBBLIES</h2>
-  
-  <table>
-    <thead>
-      <tr>
-        <th>Beverages</th>
-        <th>Country</th>
-        <th>Grape</th>
-        <th>Bottle Price</th>
-        <th>Price by Glass</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Dom Perignon</td>
-        <td>France</td>
-        <td>Pinot Noir & Chardonnay</td>
-        <td>INR49000</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Moët & Chandon, Impérial</td>
-        <td>France</td>
-        <td>Pinot Noir, Pinot Meunier and Chardonnay</td>
-        <td>INR16000</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Zonin Cuvee(prosecco)</td>
-        <td>Italy</td>
-        <td>Glera</td>
-        <td>INR7850</td>
-        <td>INR1600</td>
-      </tr>
-      <tr>
-        <td>Fratelli Noi Brut</td>
-        <td>India</td>
-        <td>Chennai Blanc</td>
-        <td>INR3500</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Sula Brut Tropicale</td>
-        <td>India</td>
-        <td>Pinot Noir</td>
-        <td>INR3000</td>
-        <td>INR650</td>
-      </tr>
-      <tr>
-        <td>Sula,Sparkling</td>
-        <td>India</td>
-        <td>Shiraz</td>
-        <td>INR3200</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Fratelli Grant Cuivee</td>
-        <td>India</td>
-        <td>Chenin Blanc</td>
-        <td>INR3400</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Chandon Brut</td>
-        <td>India</td>
-        <td>Chardonnay, Pinot Noir and Pinot Meunier</td>
-        <td>INR5500</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</div>
-<div class="menu-group">
-    <div class="hello">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          RED WINE
+        </h2>
 
-    <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">LIGHT & CRISPY</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Caliterra Reserva</td>
-          <td>Chilee</td>
-          <td>Sauvignon Blanc</td>
-          <td>INR4500</td>
-          <td>INR950</td>
-        </tr>
-        <tr>
-          <td>Villa Maria</td>
-          <td>New Zealand</td>
-          <td>Sauvignon Blanc</td>
-          <td>INR6500</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Villa Antinori Bianco</td>
-          <td>Italy</td>
-          <td>Pinot Grigio</td>
-          <td>INR4800</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Piccini</td>
-          <td>Italy</td>
-          <td>Pinot Grigio</td>
-          <td>INR5900</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Zonin</td>
-          <td>Italy</td>
-          <td>Pinot Grigio</td>
-          <td>INR5200</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Fratelli</td>
-          <td>India</td>
-          <td>Sauvignon Blanc</td>
-          <td>INR2700</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Sula</td>
-          <td>India</td>
-          <td>Sauvignon Blanc</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-</div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Robertson</td>
+              <td>South Africa</td>
+              <td>Cabernet Sauvignon</td>
+              <td>INR 850</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Man Family</td>
+              <td>South Africa</td>
+              <td>Merlot</td>
 
-  
-    <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">FRUITY & AROMATIC</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>I Baroni</td>
-          <td>Italy</td>
-          <td>Chardonnay</td>
-          <td>INR4000</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Cono Sur</td>
-          <td>Chile</td>
-          <td>Chardonnay</td>
-          <td>INR4200</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Genensis</td>
-          <td>Chile</td>
-          <td>Chardonnay</td>
-          <td>INR4200</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Blackstone</td>
-          <td>America</td>
-          <td>Chardonnay</td>
-          <td>INR5900</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Hardy's</td>
-          <td>Australia</td>
-          <td>Chardonnay</td>
-          <td>INR4000</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Molly May</td>
-          <td>Australia</td>
-          <td>Chardonnay</td>
-          <td>INR3900</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Torres Vina Esmeralda</td>
-          <td>Spain</td>
-          <td>Mosacatel</td>
-          <td>INR5000</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Torres Vina Sol</td>
-            <td>Spain</td>
-            <td>Parellada</td>
-            <td>INR4500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Jacob’s Creek</td>
-            <td>Australia</td>
-            <td>Chardonnay</td>
-            <td>INR4000</td>
-            <td>INR850</td>
-          </tr>
-         
-          <tr>
-            <td>Allegrini Corte Giara </td>
-            <td>Italy</td>
-            <td>Garganega</td>
-            <td>INR4500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Pio Cesare Langhe</td>
-            <td>Italy</td>
-            <td>Arnies</td>
-            <td>INR7800</td>
-            <td></td>
-          </tr>
-    
-        
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">RICHY & TOASTY</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Rene Mure</td>
-          <td>France</td>
-          <td>Riesling</td>
-          <td>INR6000</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Sula</td>
-          <td>India</td>
-          <td>Riesling</td>
-          <td>INR2700</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Hardy's</td>
-          <td>Australia</td>
-          <td>Riesling</td>
-          <td>INR3500</td>
-          <td></td>
-        </tr> 
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">EASY DRINKING</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Reveilo</td>
-          <td>India</td>
-          <td>Glera Rose</td>
-          <td>INR2000</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>The Source</td>
-          <td>India</td>
-          <td>Grenache Rosé</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Fratelli Chenin Blanc</td>
-          <td>India</td>
-          <td>Chenin Blanc</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr> 
-        <tr>
-            <td>Reveilo</td>
-            <td>India</td>
-            <td>Chenin Blanc</td>
-            <td>INR2400</td>
-            <td>INR600</td>
-          </tr>
-          <tr>
-            <td>Fratelli</td>
-            <td>India</td>
-            <td>Sangiovese Bianco</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
+              <td>INR 850</td>
+            </tr>
+            <tr>
+              <td>Cabernet
+                Sauvignon</td>
+              <td>India</td>
+              <td>Glera</td>
+              <td>INR 650</td>
+            </tr>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Sette</td>
+              <td>INR 650</td>
+            
+            </tr>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Cabernet
+                Shiraz
+                </td>
+              <td>INR 650</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          WHITE WINE
+        </h2>
 
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">MEDIUM & SMOOTH</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sula, Dindori Reserve</td>
-          <td>India</td>
-          <td>Viognier</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Reveilo</td>
-          <td>India</td>
-          <td>Chardonnay</td>
-          <td>INR2400</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Donafugata Sicilia</td>
-          <td>Italy</td>
-          <td>Ansonica,Viogner,Chardonnay</td>
-          <td>INR6000</td>
-          <td></td>
-        </tr> 
-        <tr>
-            <td>Sula, Chenin Blanc</td>
-            <td>India</td>
-            <td>Chenin Blanc</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>The Source</td>
-            <td>India</td>
-            <td>Chenin Blanc</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">BIG & BOLD</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Marimar Torres</td>
-          <td>Spain</td>
-          <td>Chardonnay</td>
-          <td>INR9000</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Côtes Du Rhone</td>
-            <td>France</td>
-            <td>Bourbolenc</td>
-            <td>INR4500</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">LIGHT & CRISPY</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Fratelli</td>
-          <td>India</td>
-          <td>Cabernet-Franc</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Marimar Torres Estate</td>
-            <td>Spain</td>
-            <td>Pinot Noir</td>
-            <td>INR9000</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Cono Sur</td>
-            <td>Chile</td>
-            <td>Pinot Noir</td>
-            <td>INR4200</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Man Family
+                “Free Run Steen”</td>
+              <td>Chilee</td>
+              <td>Chenin Blanc</td>
+              <td>INR 850</td>
+            </tr>
+            <tr>
+              <td>Robertson</td>
+              <td>South Africa</td>
+              <td>Sauvignon Blanc</td>
+              <td>INR 850</td>
+            
+            </tr>
+            <tr>
+              <td>The Daily Dose</td>
+              <td>India</td>
+              <td>Sauvignon Blanc</td>
+              <td>INR 650</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Chardonnay</td>
+              <td>INR 650</td>
+            
+            </tr>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Chenin Blanc
+                <td>INR 650</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          SPARKLING WINE
+        </h2>
 
-<div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">FRUITY & AROMATIC</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Jacob's Creek, Cabernet Shiraz</td>
-          <td>Australia</td>
-          <td>Cabernet Shiraz</td>
-          <td>INR4000</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Genisis</td>
-            <td>Chile</td>
-            <td>Cabernet Sauvignon</td>
-            <td>INR4200</td>
-            <td>INR950</td>
-          </tr>
-          <tr>
-            <td>I Baroni</td>
-            <td>Italy</td>
-            <td>Cabernet Sauvignon</td>
-            <td>INR4200</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">RICH & TOASTY</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>I Baroni</td>
-          <td>India</td>
-          <td>Merlot</td>
-          <td>INR4500</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Caliterra Reserva,</td>
-            <td>Chile</td>
-            <td>Merlot</td>
-            <td>INR5500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Fratelli Vitae</td>
-            <td>India</td>
-            <td>Sangiovese</td>
-            <td>INR4500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Fratelli Sette</td>
-            <td>India</td>
-            <td>Sangiovese</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Genisis</td>
-            <td>Chile</td>
-            <td>Merlot</td>
-            <td>INR4200</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">EASY & DRINKING</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sula</td>
-          <td>India</td>
-          <td>Cabernet Shiraz</td>
-          <td>INR2500</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Turning Point</td>
-            <td>India</td>
-            <td>Cabernet Shiraz</td>
-            <td>INR4000</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Reveilo</td>
-            <td>India</td>
-            <td>Merlot</td>
-            <td>INR2500</td>
-            <td>INR650</td>
-          </tr>
-          <tr>
-            <td>Sula Satori,Tempranillo</td>
-            <td>India</td>
-            <td>Merlot</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Man Family
+                </td>
+              <td>South Africa</td>
+              <td>Sparkling Chenin</td>
+              <td>INR 850</td>
+            </tr>
+            <tr>
+              <td>Robertson</td>
+              <td>India</td>
+              <td>Gran Cuvee
+                Brut</td>
+              <td>INR 850</td>
+            
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div> -->
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          FRUITY & AROMATIC
+        </h2>
 
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">MEDIUM & SMOOTH</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Hardy's</td>
-          <td>Australia</td>
-          <td>Cabernet-Merlot</td>
-          <td>INR4000</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Hardy's</td>
-            <td>Australia</td>
-            <td>Cabernet Shiraz</td>
-            <td>INR4000</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>De Loach</td>
-            <td>California</td>
-            <td>Zinfandle</td>
-            <td>INR7500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Bouchard Aîné & Fils Côtes Du</td>
-            <td>France</td>
-            <td>Grenacche,Syrah & Mourv Edere</td>
-            <td>INR5500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Sula Dindori</td>
-            <td>India</td>
-            <td>Shiraz</td>
-            <td>INR2500</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Reveilo</td>
-            <td>India</td>
-            <td>Syrah</td>
-            <td>INR2200</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
-  <div class="menu-group">
-    <div class="hello">
-  <h2 class="menu-group-heading" style="color: rgb(172, 229, 3);">BIG & BOLD</h2>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Beverages</th>
-          <th>Country</th>
-          <th>Grape</th>
-          <th>Bottle Price</th>
-          <th>Price by Glass</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>De Bortoli</td>
-          <td>Australia</td>
-          <td>Shiraz</td>
-          <td>INR4500</td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>Pio Cesare Barbaresco</td>
-            <td>Italy</td>
-            <td>Nebbiolo</td>
-            <td>INR9000</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Molly</td>
-            <td>Australia</td>
-            <td>Shiraz</td>
-            <td>INR4000</td>
-            <td>INR950</td>
-          </tr>
-          <tr>
-            <td>Trapiche, Single Variety</td>
-            <td>Argentina</td>
-            <td>Malbec</td>
-            <td>INR4400</td>
-            <td></td>
-          </tr>
-     
-        <!-- Add more rows as needed -->
-      </tbody>
-    </table>
-  </div>
-  </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I Baroni</td>
+              <td>Italy</td>
+              <td>Chardonnay</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Cono Sur</td>
+              <td>Chile</td>
+              <td>Chardonnay</td>
+              <td>INR4200</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Genensis</td>
+              <td>Chile</td>
+              <td>Chardonnay</td>
+              <td>INR4200</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Blackstone</td>
+              <td>America</td>
+              <td>Chardonnay</td>
+              <td>INR5900</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Hardy's</td>
+              <td>Australia</td>
+              <td>Chardonnay</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Molly May</td>
+              <td>Australia</td>
+              <td>Chardonnay</td>
+              <td>INR3900</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Torres Vina Esmeralda</td>
+              <td>Spain</td>
+              <td>Mosacatel</td>
+              <td>INR5000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Torres Vina Sol</td>
+              <td>Spain</td>
+              <td>Parellada</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Jacob’s Creek</td>
+              <td>Australia</td>
+              <td>Chardonnay</td>
+              <td>INR4000</td>
+            </tr>
 
-</body>
+            <tr>
+              <td>Allegrini Corte Giara</td>
+              <td>Italy</td>
+              <td>Garganega</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Pio Cesare Langhe</td>
+              <td>Italy</td>
+              <td>Arnies</td>
+              <td>INR7800</td>
+              <td></td>
+            </tr>
 
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          RICHY & TOASTY
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rene Mure</td>
+              <td>France</td>
+              <td>Riesling</td>
+              <td>INR6000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Sula</td>
+              <td>India</td>
+              <td>Riesling</td>
+              <td>INR2700</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Hardy's</td>
+              <td>Australia</td>
+              <td>Riesling</td>
+              <td>INR3500</td>
+              <td></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          EASY DRINKING
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Reveilo</td>
+              <td>India</td>
+              <td>Glera Rose</td>
+              <td>INR2000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>The Source</td>
+              <td>India</td>
+              <td>Grenache Rosé</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fratelli Chenin Blanc</td>
+              <td>India</td>
+              <td>Chenin Blanc</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Reveilo</td>
+              <td>India</td>
+              <td>Chenin Blanc</td>
+              <td>INR2400</td>
+            </tr>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Sangiovese Bianco</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          MEDIUM & SMOOTH
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sula, Dindori Reserve</td>
+              <td>India</td>
+              <td>Viognier</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Reveilo</td>
+              <td>India</td>
+              <td>Chardonnay</td>
+              <td>INR2400</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Donafugata Sicilia</td>
+              <td>Italy</td>
+              <td>Ansonica,Viogner,Chardonnay</td>
+              <td>INR6000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Sula, Chenin Blanc</td>
+              <td>India</td>
+              <td>Chenin Blanc</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>The Source</td>
+              <td>India</td>
+              <td>Chenin Blanc</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          BIG & BOLD
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Marimar Torres</td>
+              <td>Spain</td>
+              <td>Chardonnay</td>
+              <td>INR9000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Côtes Du Rhone</td>
+              <td>France</td>
+              <td>Bourbolenc</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          LIGHT & CRISPY
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fratelli</td>
+              <td>India</td>
+              <td>Cabernet-Franc</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Marimar Torres Estate</td>
+              <td>Spain</td>
+              <td>Pinot Noir</td>
+              <td>INR9000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Cono Sur</td>
+              <td>Chile</td>
+              <td>Pinot Noir</td>
+              <td>INR4200</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          FRUITY & AROMATIC
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jacob's Creek, Cabernet Shiraz</td>
+              <td>Australia</td>
+              <td>Cabernet Shiraz</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Genisis</td>
+              <td>Chile</td>
+              <td>Cabernet Sauvignon</td>
+              <td>INR4200</td>
+            </tr>
+            <tr>
+              <td>I Baroni</td>
+              <td>Italy</td>
+              <td>Cabernet Sauvignon</td>
+              <td>INR4200</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          RICH & TOASTY
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I Baroni</td>
+              <td>India</td>
+              <td>Merlot</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Caliterra Reserva,</td>
+              <td>Chile</td>
+              <td>Merlot</td>
+              <td>INR5500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fratelli Vitae</td>
+              <td>India</td>
+              <td>Sangiovese</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fratelli Sette</td>
+              <td>India</td>
+              <td>Sangiovese</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Genisis</td>
+              <td>Chile</td>
+              <td>Merlot</td>
+              <td>INR4200</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          EASY & DRINKING
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sula</td>
+              <td>India</td>
+              <td>Cabernet Shiraz</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Turning Point</td>
+              <td>India</td>
+              <td>Cabernet Shiraz</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Reveilo</td>
+              <td>India</td>
+              <td>Merlot</td>
+              <td>INR2500</td>
+            </tr>
+            <tr>
+              <td>Sula Satori,Tempranillo</td>
+              <td>India</td>
+              <td>Merlot</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          MEDIUM & SMOOTH
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hardy's</td>
+              <td>Australia</td>
+              <td>Cabernet-Merlot</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Hardy's</td>
+              <td>Australia</td>
+              <td>Cabernet Shiraz</td>
+              <td>INR4000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>De Loach</td>
+              <td>California</td>
+              <td>Zinfandle</td>
+              <td>INR7500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Bouchard Aîné & Fils Côtes Du</td>
+              <td>France</td>
+              <td>Grenacche,Syrah & Mourv Edere</td>
+              <td>INR5500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Sula Dindori</td>
+              <td>India</td>
+              <td>Shiraz</td>
+              <td>INR2500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Reveilo</td>
+              <td>India</td>
+              <td>Syrah</td>
+              <td>INR2200</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          BIG & BOLD
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Beverages</th>
+              <th>Country</th>
+              <th>Grape</th>
+              <th>Bottle Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>De Bortoli</td>
+              <td>Australia</td>
+              <td>Shiraz</td>
+              <td>INR4500</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Pio Cesare Barbaresco</td>
+              <td>Italy</td>
+              <td>Nebbiolo</td>
+              <td>INR9000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Molly</td>
+              <td>Australia</td>
+              <td>Shiraz</td>
+              <td>INR4000</td>
+            </tr>
+            <tr>
+              <td>Trapiche, Single Variety</td>
+              <td>Argentina</td>
+              <td>Malbec</td>
+              <td>INR4400</td>
+              <td></td>
+            </tr>
+
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
