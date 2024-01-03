@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        background-color: rgb(10, 1, 1);
+        padding-block: 10px;
+        flex-wrap: wrap;
+      }
+
+      .hello {
+        text-align: left; /* To shift the heading to the left, use "left" here */
+        margin-left: 50px; /* Adjust the left margin as needed */
+      }
+      .menu-group-heading {
+        margin: 0;
+        padding-bottom: 1em;
+        border-bottom: 3px solid #ccc;
+      }
+      .menu-group {
+        /* display: flex;
+            justify-content: center; */
+        /* text-align: center; /* Center the content inside the div */
+
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        gap: 1.5em;
+        padding: 1.5em 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #000000;
+        text-align: left;
+        word-wrap: break-word;
+        color: white;
+      }
+
+      th {
+        background-color: #000000;
+        color: rgb(172, 229, 3);
+        font-size: 19px;
+      }
+      @media screen and (min-width: 680px) and (max-width: 726px) {
+        .menu {
+          font-size: 16px;
+        }
+
+        .menu-group {
+          grid-template-columns: repeat(5, auto);
+        }
+      }
+      .sticky-line {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(10, 1, 1, 0.5);
+        color: white;
+        padding: 8px 16px;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(172, 229, 3);
+        font-size: 14px;
+        text-align: center;
+      }
+      .winess {
+        color: white;
+      }
+      .menu-item-desc {
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="sticky-line">
+      Mixers extra | GST : 18% | VAT : 20% | Service Charge : 5%
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          SIGNATURE COCTAILS
+        </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                SUNSET BLISS
+                <p class="menu-item-desc">
+                  Rum, Aperol, Pineapple, Acids, Foamer
+                </p>
+              </td>
+
+              <td>INR 680</td>
+            </tr>
+            <tr>
+              <td>TERRACE TEASE
+                <p class="menu-item-desc">
+                    Vodka, coconut water, Raw Mango, Acids, Honey
+                  </p>
+              </td>
+              <td>INR 850</td>
+            </tr>
+            <tr>
+                <td>CLOUD 9 COLLIN
+                  <p class="menu-item-desc">
+                      
+                    </p>Vodka, Melon, Acids, Basil, Bubbles
+
+                </td>
+                <td>INR 620</td>
+              </tr>
+              <tr>
+                <td>BREEZE BREW
+                  <p class="menu-item-desc">
+                    Gin, Jasmine Milk Tea, Litchi, Acids,Vanilla
+                    </p>
+                </td>
+                <td>INR 650</td>
+              </tr>
+              <tr>
+                <td>ROOFTOP RAPTURE
+                    
+                  <p class="menu-item-desc">
+                    Gin, Vermouth,Green Apple, Matcha Foam
+                    </p>
+                </td>
+                <td>INR 680</td>
+              </tr>
+              <tr>
+                <td>SKYWARD SPIRIT
+                    
+                  <p class="menu-item-desc">
+                    Whisky, Campari, Coffee, Foam
+                    </p>
+                </td>
+                <td>INR 740</td>
+              </tr>
+              <tr>
+                <td>Man Family
+                  <p class="menu-item-desc">
+                      Vodka, coconut water, Raw Mango, Acids, Honey
+                    </p>
+                </td>
+                <td>INR 850</td>
+              </tr>
+            <!-- Add more rows as needed, displaying only two columns -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="menu-group">
+      <div class="hello">
+        <h2 class="menu-group-heading" style="color: rgb(172, 229, 3)">
+          WHITE WINE
+        </h2>
+
+        <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    URBAN OASIS
+                    
+                  <p class="menu-item-desc">
+                    Whisky, Inhouse Peanut Syrup, Banana Juice, Acids
+                </td>
+  
+                <td>INR 680</td>
+              </tr>
+              <tr>
+                <td>NIMBUS
+                    
+                  <p class="menu-item-desc">
+                    Tequila, Green Apple, Acids, Foamer
+                    </p>
+                </td>
+                <td>INR 680</td>
+              </tr>
+              <tr>
+                  <td>SKYLINE SANGRIA
+                   
+                    <p class="menu-item-desc">
+                        
+                      </p> Red Wine, Coffee, Pineapple, Vanilla
+  
+                  </td>
+                  <td>INR 740</td>
+                </tr>
+              
+               
+              <!-- Add more rows as needed, displaying only two columns -->
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </body>
+</html>
