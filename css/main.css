@@ -864,19 +864,31 @@ Recipe Template
    
 }
 /* .d{
-  
-  border: .1rem solid white;
-  /* text-align: center; */
-  /* width: 1.5%;
+  border: 2px solid white;
+  padding: 4px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight:bold;
+  margin: 0 5px;
+} */
+.d {
+  border: 2px solid white;
+  padding: 4px;
   border-radius: 50%;
   text-align: center;
   font-weight: bold;
   margin: 0 2px;
-} */
-.dg{
-  display: flex;
+  width: 24px; /* Set the width */
+  height: 24px; /* Set the height */
+  line-height: 14px; 
+}
 
-} */
+.dg{
+  display:inline-flex;
+    /* justify-content: center; */
+    
+
+} 
 
 
 
