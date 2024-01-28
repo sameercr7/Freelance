@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<style>
+    body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sticky-line {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(10, 1, 1, .5);
+        color: white;
+        padding: 8px 16px;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(172, 229, 3);
+        font-size: 14px;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                aria-label="Slide 9"></button>
+                
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/BreezeBrew.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start ">
+                        <h6 style="font-weight: bolder;">Breeze Brew</h6>
+                        <h6 style="font-style: italic;">Gin, Jasmine Milk Tea, Litchi, Acids,Vanilla</h6>
+                        <h6>INR 680</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/Cloud9Collin.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>CLOUD 9 COLLIN</h6>
+                        <h6 style="font-style: italic;">Vodka, Melon, Acids, Basil, Bubbles</h6>
+                        <h6>INR 620</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/Nimbus.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>NIMBUS</h6>
+                        <h6 style="font-style: italic;">Tequila, Green Apple, Acids, Foamer</h6>
+                        <h6>INR 680</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/RooftopRapture.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>ROOFTOP RAPTURE</h6>
+                        <h6 style="font-style: italic;">Gin, Vermouth,Green Apple, Matcha Foam</h6>
+                        <h6>INR 680</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/SkylineSangria.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>SKYLINE SANGRIA</h6>
+                        <h6 style="font-style: italic;">Red Wine, Coffee, Pineapple, Vanilla</h6>
+                        <h6>INR 740</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/SkywardSpirit.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>SKYWARD SPIRIT</h6>
+                        <h6 style="font-style: italic;">Whisky, Campari, Coffee, Foam</h6>
+                        <h6>INR 740</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/SunsetBliss.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>SUNSET BLISS</h6>
+                        <h6 style="font-style: italic;">Rum, Aperol, Pineapple, Acids, Foamer</h6>
+                        <h6>INR 680</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/TerraceTease.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>TERRACE TEASE</h6>
+                        <h6 style="font-style: italic;">Vodka, coconut water, Raw Mango, Acids, Honey</h6>
+                        <h6>INR 390</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="sticky-line">
+                    GST : 18% | VAT : 20% | Service Charge : 5%
+                </div>
+                <img src="./assets/cocktails/UrbanOasis.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-box text-start">
+                        <h6>URBAN OASIS</h6>
+                        <h6 style="font-style: italic;">Whisky, Inhouse Peanut Syrup, Banana Juice, Acids</h6>
+                        <h6>INR 680</h6>
+                    </div>
+                </div>
+            </div
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
